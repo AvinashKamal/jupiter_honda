@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const inter = Poppins({ subsets: ["latin"], weight: ['400', '600', '700', '900'] });
+const inter = Roboto({ subsets: ["latin"], weight: ['100', '300', '400', '500', '700', '900'] });
 
 export const metadata: Metadata = {
   title: "Jupiter Honda",
